@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.beginning-container {
+    padding: 15px;
+}
+
+.beginning-container .banner {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.beginning-container h2 {
+    display: inline-block;
+    font-size: 2rem;
+    text-align: right;
+    padding-top: 20px;
+    margin: 0;
+    font-weight: 790;
+}
+
+.beginning-container .banner img {
+    width: 30%;
+}
+
+.beginning-container p {
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 500;
+    padding: 20px 0 10px;
+    margin: 0;
+
+}
+
+.beginning-container input {
+    padding: 10px 55px 10px 15px;
+    width: 60%;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    color: gray;
+    box-shadow: -10px -10px 15px rgb(58 58 58 / 9%), 10px 10px 15px rgb(66 66 66 / 35%);
+    height: 50px;
+}
+
+.beginning-container button {
+    position: absolute;
+    margin: 0 0 0 -3.1rem;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    background: #40ff2f;
+}
+
+/*starting stiling de poekedex seccion*/
+.pokedex-container h2 {
+    font-weight: 800;
+    font-size: 2.9rem;
+    padding-top: 50px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.pokedex-container p {
+    text-align: left;
+    padding: 10px 0 40px 30px;
+    font-size: 1.1rem;
+}
+
+.pokedex-container input {
+    width: 100%;
+    max-width: 400px;
+    height: 60px;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    font-size: 19px;
+    padding-left: 20px;
+    color: grey;
+    box-shadow: -10px -10px 15px rgb(58 58 58 / 9%), 10px 10px 15px rgb(66 66 66 / 35%);
+    transition: .5s;
+    margin: 30px 0;
+}
+
+
+.pokedex-container select {
+    width: 100%;
+    max-width: 400px;
+    height: 60px;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    font-size: 19px;
+    padding-left: 20px;
+    color: grey;
+    box-shadow: -10px -10px 15px rgb(58 58 58 / 9%), 10px 10px 15px rgb(66 66 66 / 35%);
+    transition: .5s;
+    margin: 30px 0;
+}
+
+.pokecontainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.card, .card:hover {
+    color: #fff;
+    transition: .3s;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    display: flex;
+    text-align: left;
+    height: 10%;
+    text-shadow: 0 0 1.4px #000;
+}
+
+.card .text{
+    padding-left: 10px;
+    font-size: .9rem;
+    width: 100%;
+}
